@@ -7,4 +7,17 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="texto">
+        <item name="android:textSize">14pt</item>
+        <item name="android:textColor">@color/colorText</item>
+    </style>
+
+    <style name="button">
+        <item name="android:textSize">10pt</item>
+        <item name="android:background">@color/colorBackgroundButton</item>
+        <item name="android:textColor">@color/colorButton</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
 </resources>
