@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Statistics">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:layout_width="25pt"
+            android:layout_height="25pt"
+            android:layout_gravity="left"
+            android:layout_margin="5pt"
+            android:src="@drawable/arrow_left" />
+
+        <ImageView
+            android:layout_width="80pt"
+            android:layout_height="80pt"
+            android:layout_gravity="center"
+            android:background="@drawable/bo4"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MINHAS ESTATÍSTICAS"
+            android:textAlignment="center"
+            android:textColor="#000" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="10pt"
+            android:layout_marginBottom="10pt"
+            android:background="@android:color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="10pt"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginEnd="3pt"
+                android:background="@drawable/done_box"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MEDITAÇÕES REALIZADAS"
+                android:textAlignment="center"
+                android:textColor="#000" />
+        </LinearLayout>
+
+        <TextView
+            style="@style/texto_goal_player"
+            android:layout_width="80pt"
+            android:layout_height="wrap_content"
+            android:layout_margin="5pt"
+            android:background="@drawable/border"
+            android:text="3 SESSÕES" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="10pt"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginEnd="3pt"
+                android:background="@drawable/clock"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TEMPO TOTAL MEDITANDO"
+                android:textAlignment="center"
+                android:textColor="#000" />
+        </LinearLayout>
+
+        <TextView
+            style="@style/texto_goal_player"
+            android:layout_width="80pt"
+            android:layout_height="wrap_content"
+            android:layout_margin="5pt"
+            android:background="@drawable/border"
+            android:text="30:45" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="10pt"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginEnd="3pt"
+                android:background="@drawable/point"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OBJETIVO MAIS UTILIZADO"
+                android:textAlignment="center"
+                android:textColor="#000" />
+        </LinearLayout>
+
+        <TextView
+            style="@style/texto_goal_player"
+            android:layout_width="80pt"
+            android:layout_height="wrap_content"
+            android:layout_margin="5pt"
+            android:background="@drawable/border"
+            android:text="NOME DO OBJETIVO" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

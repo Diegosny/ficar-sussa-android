@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Goals">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:src="@drawable/arrow_left" />
+
+            <TextView
+                style="@style/texto_goal"
+                android:layout_width="115pt"
+                android:layout_height="30pt"
+                android:text="@string/goal" />
+
+            <ImageButton
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:src="@drawable/bar_chart" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@android:color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70pt"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="50pt"
+                android:layout_height="wrap_content"
+                android:layout_margin="5pt"
+                android:src="@drawable/bo4" />
+
+            <LinearLayout
+                android:layout_width="65pt"
+                android:layout_height="match_parent"
+                android:layout_margin="5pt"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/goal_1_1"
+                    android:textSize="15pt" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/goal_1_2"
+                    android:textSize="5pt" />
+            </LinearLayout>
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/arrow_right" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@android:color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70pt"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="50pt"
+                android:layout_height="wrap_content"
+                android:layout_margin="5pt"
+                android:src="@drawable/bo2" />
+
+            <LinearLayout
+                android:layout_width="65pt"
+                android:layout_height="match_parent"
+                android:layout_margin="5pt"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/goal_2_1"
+                    android:textSize="15pt" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/goal_2_2"
+                    android:textSize="5pt" />
+            </LinearLayout>
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/arrow_right" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@android:color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70pt"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="50pt"
+                android:layout_height="wrap_content"
+                android:layout_margin="5pt"
+                android:src="@drawable/bo6" />
+
+            <LinearLayout
+                android:layout_width="65pt"
+                android:layout_height="match_parent"
+                android:layout_margin="5pt"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/goal_3_1"
+                    android:textSize="15pt" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/goal_3_2"
+                    android:textSize="5pt" />
+            </LinearLayout>
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/arrow_right" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@android:color/black" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

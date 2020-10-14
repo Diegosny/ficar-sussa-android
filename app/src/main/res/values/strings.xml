@@ -1,6 +1,17 @@
 <resources>
     <string name="app_name">Aula1_anatomia</string>
-    <string name="meu_texto">Carlos Tavares</string>
-    <string name="texto_botao">OK</string>
-    <string name="minha_caixa">Minha Caixa</string>
+    <string name="text_1">Seja bem-vindo ao "De Boas", onde você aprende meditação e fica sempre de boas.</string>
+    <string name="text_2">É divertido e ajudamos você a ficar motivado com recompensas pelo seu empenho em ficar "De Boas"</string>
+    <string name="text_3">Você pode acompanhar sua evolução em ficar "De boas" com as nossas estatísticas inteligentes.</string>
+    <string name="goal">Objetivos</string>
+    <string name="goal_1_1">Ficar Sussa</string>
+    <string name="goal_1_2">Relexar, reduzir ansiedade e o stress</string>
+
+    <string name="goal_2_1">Olha a Foca</string>
+    <string name="goal_2_2">Aumentar o foco</string>
+
+    <string name="goal_3_1">Dormir de Boas</string>
+    <string name="goal_3_2">Dormir melhor</string>
+
+    <string name="btn_next">Próximo</string>
 </resources>
