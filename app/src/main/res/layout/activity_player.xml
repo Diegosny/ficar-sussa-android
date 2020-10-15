@@ -32,7 +32,6 @@
             android:background="@android:color/black" />
 
         <ImageButton
-            android:background=""
             android:layout_gravity="center"
             android:layout_width="40pt"
             android:layout_height="40pt"
